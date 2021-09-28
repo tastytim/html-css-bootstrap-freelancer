@@ -5,16 +5,27 @@
 }
 
 
-.col-dark-blue{
+.colb-dark-blue{
     background-color: #2C3E50;
 }
 
-.col-green{
+.colb-green{
     background-color: #1ABC9C;
 }
 
-.col-blue{
+.colb-blue{
     background-color: #3A546D;
+}
+.col-dark-blue{
+    color: #2C3E50;
+}
+
+.col-green{
+    color: #1ABC9C;
+}
+
+.col-blue{
+    color: #3A546D;
 }
 
 .line{
@@ -23,6 +34,14 @@
     border: 1px solid white;
 }
 
+
+.line-blue{
+    width: 100px;
+    background-color: #3A546D;
+    border: 1px solid #3A546D;
+}
+
+
 .line-height-2{
     height: 20px;
     line-height: 2;
@@ -30,4 +49,26 @@
 
 .star{
     transform:scale(1.4);
+}
+.row-img{
+    row-gap: 24px;
+}
+.row-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-control{
+    border: none;
+    border-radius: 0;
+    border-bottom:1px solid #D1D1D1;
+}
+
+.button-green{
+    border:green;
+
+}
+
+.button-green::hover{
+    border:#25a88e;
 }
