@@ -81,3 +81,44 @@
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
+
+
+
+.img-hov {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay{
+  display: inline;
+  content: "";
+  position: absolute;
+  width: calc(100% - 24px);
+  height: 100%;
+  top: 100%;
+  left: 12px;
+  background-color: rgba(82, 84, 87, 0.377);
+  transition: top .5s ;
+}
+
+.img-hov:hover .overlay {
+    top:0;
+}
+
+.twitter:hover .fa-twitter{
+    color:rgb(29, 155, 240);
+}
+
+.facebook:hover .fa-facebook-f{
+    color:#2E89FF;
+}
+
+.google:hover .fa-google-plus-g{
+    color: rgb(245, 245, 18);
+}
+.linkedin:hover .fa-linkedin-in{
+    color: #0A66C2;
+}
+
+
+
