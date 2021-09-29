@@ -1,84 +1,83 @@
-*{
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-.colb-dark-blue{
-    background-color: #2C3E50;
+.colb-dark-blue {
+  background-color: #2c3e50;
 }
 
-.colb-green{
-    background-color: #1ABC9C;
+.colb-green {
+  background-color: #1abc9c;
 }
 
-.colb-blue{
-    background-color: #3A546D;
+.colb-blue {
+  background-color: #3a546d;
 }
-.col-dark-blue{
-    color: #2C3E50;
-}
-
-.col-green{
-    color: #1ABC9C;
+.col-dark-blue {
+  color: #2c3e50;
 }
 
-.col-blue{
-    color: #3A546D;
+.col-green {
+  color: #1abc9c;
 }
 
-.line{
-    width: 100px;
-    background-color: white;
-    border: 1px solid white;
+.col-blue {
+  color: #3a546d;
 }
 
-
-.line-blue{
-    width: 100px;
-    background-color: #3A546D;
-    border: 1px solid #3A546D;
+.line {
+  width: 100px;
+  background-color: white;
+  border: 1px solid white;
 }
 
-
-.line-height-2{
-    height: 20px;
-    line-height: 2;
+.line-blue {
+  width: 100px;
+  background-color: #3a546d;
+  border: 1px solid #3a546d;
 }
 
-.star{
-    transform:scale(1.4);
-}
-.row-img{
-    row-gap: 24px;
-}
-.row-img img{
-    width: 100%;
-    border-radius: 5px;
+.line-height-2 {
+  height: 20px;
+  line-height: 2;
 }
 
-.form-control{
-    border: none;
-    border-radius: 0;
-    border-bottom:1px solid #D1D1D1;
+.star {
+  transform: scale(1.4);
+}
+.row-img {
+  row-gap: 24px;
+}
+.row-img img {
+  width: 100%;
+  border-radius: 5px;
 }
 
-.button-green{
-    border:green;
-
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #d1d1d1;
 }
 
-.button-green::hover{
-    border:#25a88e;
+.button-green {
+  border: #25a88e;
 }
 
+.custom-btn .btn-primary:hover {
+  background-color: #02daae;
+  border-color: #02daae;
+}
 
+.btn-round {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
 
-.btn-round{
-    margin: 0 5px;
-    width:40px;
-    height:40px;
-    border:1px solid white;
-    border-radius:50%;
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
